@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    box-shadow: 0px 0px 5px black;
+    filter:drop-shadow(0px 0px 5px black);
+}
+
+header{
+    display:flex;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(238, 209, 163);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color:rgb(185, 70, 70);
+}
+
+nav a{
+    padding: 20px 25px;
+    text-decoration: none;
+    color:rgb(185, 70, 70);
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+}
+
+nav a:hover{
+    background-color: rgb(246, 205, 246);  
+    transition: 0,5s;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-sizing: 0px 0px 5px;
+    filter:drop-shadow(0px 0px 5px rgb(255, 157, 157));
+    border-radius: 30px;
+}
+
+nav .animation{
+    position:absolute;
+    height:100%;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+section.home{ 
+    background: url("CAFE\ background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    padding-top: 100px;
+}
+section.home div{ 
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .welcome{
+    text-align: center;
+    font-size: 25px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section.home a{ 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.about{
+    background-image: url("about\ 2.png");
+    height: 600px;
+    padding-top: 100px;
+}
+
+section.about div{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+section.about img{
+    height: 200px;
+}
+
+section.product{
+    background: rgb(255, 221, 227);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1100px;
+}
+
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+section.product .container .card{
+    background-color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    width: 400px;
+    height: 700px;
+    margin: 15px;
+    scale: 50%;
+    border-radius: 20px;
+    background: linear-gradient(30deg, #f0c8c8, hsl(0, 0%, 100%), #eccfec);
+}
+
+section.product .container .card img{
+    width: 100%;
+    scale: 90%;
+    border-radius: 50px;
+}
+
+section.product .container .card button{
+    cursor:pointer;
+    border-radius: 20px;
+    color:rgb(185, 70, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:5px;
+}
+
+section.product .container .card p{
+    color: black;
+    text-align: center;
+    padding: 0 20px;
+}
+
+section.product .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+header div img{
+    padding-left: 20px;
+    height:100px;
+    scale: 3;
+    filter:drop-shadow(0px 0px 5px rgb(229, 255, 228));
+}
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);    
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+footer{
+    background-color:rgb(255, 215, 215);
+    height: 50px;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px 20px;
+}
