@@ -1,0 +1,485 @@
+html {
+    scroll-padding-top: 110px;
+}
+
+body {
+    margin: 0px;
+    box-shadow: 0px 0px 5px black;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+header {
+    position: sticky !important;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(238, 209, 163);
+    justify-content: space-between;
+    z-index: 1;
+    color: rgb(185, 70, 70);
+    padding: 10px;
+}
+
+header div.title {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(238, 209, 163);
+    font-size: larger;
+    font-family: "Trirong", sans-serif;
+    color: rgb(185, 70, 70);
+}
+
+header div img {
+    padding-top: 10px;
+    padding-left: 35px;
+    height: 100px;
+    width: auto;
+    scale: 3;
+}
+
+header .image {
+    display: flex;
+    gap: 70px;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.menu a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(185, 70, 70);
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.menu a:hover {
+    background-color: rgb(208, 214, 228);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-sizing: 0px 0px 5px;
+    filter: drop-shadow(0px 0px 5px rgb(33, 83, 145));
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+section.home {
+    background: url("CAFE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+}
+
+section.home header div {
+    width: 70%;
+    padding: 20px;
+}
+
+section.home div {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+
+section.home .welcome {
+    text-align: center;
+    font-size: 25px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+
+section.home a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+
+section.about {
+    background-image: url("about\ 2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 750px;
+    padding-top: 100px;
+}
+
+section.about div {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+section.about img {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: whitesmoke 10px;
+}
+
+.heading {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(249, 249, 183);
+}
+
+.head {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(245, 245, 171);
+}
+
+section.product {
+    background: rgb(178, 198, 242);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1400px;
+}
+
+section.product .container {
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+section.product .container .card {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    background: linear-gradient(30deg, #f0c8c8, hsl(0, 0%, 100%), #eccfec);
+    scale: 85%;
+    transition: transform 0.3s ease;
+}
+
+section.product .container .card:hover {
+    transform: scale(1.050);
+    box-shadow: 5px 10px #992626;
+}
+
+section.product .container .nama {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-weight: italic;
+    font-size: large;
+    height: auto;
+}
+
+section.product .container .card img {
+    width: 100%;
+    scale: 90%;
+    border-radius: 50px;
+}
+
+section.product .container .card button {
+    margin-top: 8px;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    color: rgb(185, 70, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    text-decoration: none;
+}
+
+section.product .container .card button:hover {
+    background-color: rgb(255, 251, 149);
+}
+
+section.product .container .card p {
+    color: black;
+    text-align: center;
+    padding: 0px 20px;
+    font-family: "Trirong", serif;
+    font-size: medium;
+}
+
+section.product .container .card a {
+    color: rgb(185, 70, 70);
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: large;
+}
+
+section.product .container .card .harga {
+    background-color: rgb(250, 225, 193);
+    margin: 1px;
+    box-shadow: 3px;
+    padding: 0px 0px 3px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.kefir {
+    position: relative;
+    border-radius: 70px;
+    box-shadow: 0px 0px 5px;
+    color: rgb(7, 36, 113);
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    transition: .5s;
+    margin: 20px;
+}
+
+.kefir .gambar {
+    position: absolute;
+}
+
+.kefir .gambar img {
+    width: 100%;
+}
+
+.kefir:hover .gambar img {
+    filter: opacity(5%);
+    transition: 0.5s;
+}
+
+.kefir .deskripsi {
+    font-family: "Trirong", serif;
+    position: absolute;
+    top: 250px;
+    padding: 0px;
+    transition: .5s;
+    color: black;
+    font-size: medium;
+}
+
+.kefir:hover .deskripsi {
+    top: 0px;
+    transition: .5s;
+}
+
+.kefir .deskripsi a {
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    border-radius: 10px;
+}
+
+.container .kefir button {
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.container .kefir button:hover {
+    background-color: rgb(255, 251, 149);
+}
+
+section.contact {
+    background-image: url("matcha.png");
+    height: 750px;
+    padding-top: 100px;
+    font-weight: small;
+    font-style: bold;
+    text-align: center;
+}
+
+section.contact .card {
+    margin: auto;
+    color: white;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+    font-family: "Trirong", serif;
+}
+
+section.contact .card img {
+    scale: 100%;
+    width: 250px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+section.contact .card p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    padding: 10px;
+    background-color: rgb(133, 179, 241);
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+section.order {
+    background: rgb(37, 54, 89);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+section.order h3 {
+    text-align: center;
+    width: 97%;
+    font-size: 30px;
+    color: white;
+    background-color: #8b7433;
+    font-family: "Trirong", sans-serif;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+section.order .container {
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    scale: 0.8;
+}
+
+section.order .container .card {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    scale: 100%;
+}
+
+section.order .container .card img {
+    width: 100%;
+    scale: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+section.order .container .card:hover {
+    transform: scale(1.050);
+}
+
+section.order .container .nama {
+    text-align: left;
+    font-family: "Audiowide", sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    font-weight: italic;
+    height: auto;
+}
+
+section.order .container .card p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    font-family: "Trirong", serif;
+    font-size: medium;
+}
+
+section.order .container .card a {
+    text-align: left;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(153, 73, 73);
+}
+
+h2 {
+    font-family: "Trirong", serif;
+    font-weight: italic;
+    font-size: medium;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(255, 215, 215);
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(159, 62, 94);
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer .medsos {
+    padding-top: 20px;
+    align-items: center;
+}
+
+footer .medsos a {
+    text-decoration: none;
+    padding-top: 100px;
+    margin: 10px;
+    color: white;
+}
+
+.fa {
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.fa:hover {
+    scale: 110%;
+    transform: translateY(-5px);
+}
+
+.fa-facebook {
+    background-color: rgb(40, 46, 136);
+}
+
+.fa-twitter {
+    background-color: rgb(0, 196, 221);
+}
+
+.fa-instagram {
+    background-image: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #d62976, #4f5bd5);
+}
+
+.fa-youtube {
+    background-color: rgb(205, 4, 4);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
